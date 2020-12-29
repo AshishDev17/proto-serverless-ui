@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.graph-container {
+  width: 49%;
+  height: 400px;
+}
+
+/* .row-margin {
+  margin-top: 10px;
+} */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
