@@ -39,14 +39,35 @@
   flex-direction: column;
 }
 
-.graph-container {
-  width: 49%;
-  height: 400px;
+.service-title {
+  text-align: left;
+  margin: 1%;
+  font-weight: 700;
 }
 
-/* .row-margin {
-  margin-top: 10px;
-} */
+.status-container {
+  width: 24%;
+  height: 100px;
+  border-color: grey;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1%;
+  margin: 0 1%;
+}
+
+.status-content {
+  margin-top: 20px;
+}
+
+.up-status {
+  color: green;
+  font-size: 1.5em;
+}
+
+.down-status {
+  color: red;
+  font-size: 1.5em;
+}
 
 @keyframes App-logo-spin {
   from {
